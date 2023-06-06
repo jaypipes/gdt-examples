@@ -1,4 +1,4 @@
-# `gdt` - The Go Declarative Testing framework
+# Go Declarative Testing - Examples ![go test workflow](https://github.com/jaypipes/gdt-examples/actions/workflows/gate-tests.yml/badge.svg)
 
 [`gdt`][gdt] is a testing library that allows test authors to cleanly describe tests
 in a YAML file. `gdt` reads YAML files that describe a test's assertions and
@@ -6,8 +6,6 @@ then builds a set of Go structures that the standard Go
 [`testing`](https://golang.org/pkg/testing/) package can execute.
 
 [gdt]: https://github.com/jaypipes/gdt
-
-## gdt Examples library ![go test workflow](https://github.com/jaypipes/gdt-examples/actions/workflows/gate-tests.yml/badge.svg)
 
 This `gdt-examples` repository is a companion Go library for `gdt` that
 contains examples for how to use `gdt` and its companion Go libraries like
