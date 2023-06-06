@@ -8,7 +8,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/jaypipes/gdt/examples/books/api"
+	"github.com/jaypipes/gdt-examples/http/api"
 )
 
 var _ = Describe("Books API - POST /books -> GET /books from Location", func() {

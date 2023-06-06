@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/jaypipes/gdt/examples/books/api"
+	"github.com/jaypipes/gdt-examples/http/api"
 )
 
 // respJSON returns a string if the supplied HTTP response body is JSON,

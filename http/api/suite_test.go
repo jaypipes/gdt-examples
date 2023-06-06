@@ -10,7 +10,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/jaypipes/gdt/examples/books/api"
+	"github.com/jaypipes/gdt-examples/http/api"
 )
 
 var (
