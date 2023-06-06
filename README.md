@@ -1,4 +1,4 @@
-# `gdt-examples` - The Go Declarative Testing framework - Fixtures library ![go test workflow](https://github.com/jaypipes/gdt-examples/actions/workflows/gate-tests.yml/badge.svg)
+# `gdt` - The Go Declarative Testing framework
 
 [`gdt`][gdt] is a testing library that allows test authors to cleanly describe tests
 in a YAML file. `gdt` reads YAML files that describe a test's assertions and
@@ -7,23 +7,15 @@ then builds a set of Go structures that the standard Go
 
 [gdt]: https://github.com/jaypipes/gdt
 
-`gdt-examples` is a companion Go library for `gdt` that contains examples for
-how to use `gdt` and its companion Go libraries like `gdt-http` and
-`gdt-fixtures`.
+## gdt Examples library ![go test workflow](https://github.com/jaypipes/gdt-examples/actions/workflows/gate-tests.yml/badge.svg)
 
-## Installation
+This `gdt-examples` repository is a companion Go library for `gdt` that
+contains examples for how to use `gdt` and its companion Go libraries like
+`gdt-http` and `gdt-fixtures`.
 
-`gdt-examples` is a Go library and is intended to be included in your own Go
-application's test code as a Go package dependency.
-
-Install `gdt-examples` into your `$GOPATH` by executing:
-
-```
-go get -u github.com/jaypipes/gdt-examples
-```
-
-Alternately, include `github.com/jaypipes/gdt-examples` in your Go dependency
-management of choice.
+The `http` directory in this repository contains Go code for a simplistic HTTP
+web service that lists and creates books (in `http/api`) along with functional
+tests written in YAML using `gdt`'s test file format (in `http/tests/api`).
 
 ## Contributing and acknowledgements
 
